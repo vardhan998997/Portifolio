@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       description: 'Designed for a smooth and responsive shopping experience.Users can browse, filter, and view product details with ease. Includes cart handling and a streamlined checkout flow.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
-      liveUrl: 'https://react-e-mark.vercel.app/fridge',
+      liveUrl: 'https://react-e-mark.vercel.app/',
       githubUrl: 'https://github.com/vardhan998997/React-E-Mark.git',
       featured: false,
       status: 'Live'

@@ -5,6 +5,16 @@ import { ExternalLink, Github, Eye, Star } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: 'SkillCircle && StudyCircle',
+      description: 'A collaborative platform connecting learners to share educational resources and find study partners and learning with tools for resource sharing and partner matching.',
+      image: 'https://img.freepik.com/free-vector/side-view-boys-using-laptop-communicate-video-conference-with-teacher-friends-white_1308-52324.jpg?semt=ais_hybrid&w=740',
+      technologies: ['React', 'Express', 'Node.js', 'MongoDB', 'Sockets', 'JwtTokens','TailwindCSS'],
+      liveUrl: 'https://skill-circle-hn8rj860v-vishnu3.vercel.app/dashboard',
+      githubUrl: 'https://github.com/vardhan998997/SkillCircle.git',
+      featured: false,
+      status: 'Coming Soon'
+    },
+    {
       title: 'WanderLust',
       description: 'Wanderlust is a full-stack travel booking platform inspired by Airbnb, allowing users to explore stays and book accommodations through a smooth, responsive interface.',
       image: 'https://etimg.etb2bimg.com/thumb/msid-99990806,imgsize-287108,width-1200,height=765,overlay-ettravel/hospitality/airbnb-launches-new-rooms-category-as-night-stays-in-india-grow-by-over-80.jpg',
@@ -51,16 +61,6 @@ const Projects: React.FC = () => {
       technologies: ['React', 'TailwindCss', 'Node', 'Express', 'FastAPI', 'Cloudinary', 'JwtTokens', 'Mongodb'],
       liveUrl: 'https://ai-image-gen.com',
       githubUrl: 'https://github.com/vardhan998997/-ShopLoom.git',
-      featured: false,
-      status: 'Coming Soon'
-    },
-    {
-      title: 'SkillCircle && StudyCircle',
-      description: 'A collaborative platform connecting learners to share educational resources and find study partners and learning with tools for resource sharing and partner matching.',
-      image: 'https://img.freepik.com/free-vector/side-view-boys-using-laptop-communicate-video-conference-with-teacher-friends-white_1308-52324.jpg?semt=ais_hybrid&w=740',
-      technologies: ['React', 'Express', 'Node.js', 'MongoDB', 'Sockets', 'JwtTokens','TailwindCSS'],
-      liveUrl: '',
-      githubUrl: 'https://github.com/vardhan998997/SkillCircle.git',
       featured: false,
       status: 'Coming Soon'
     }
